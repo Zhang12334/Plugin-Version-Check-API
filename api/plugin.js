@@ -4,7 +4,7 @@ import path from 'path';
 import YAML from 'yaml';
 
 export default async (req, res) => {
-  const { pluginName } = req.query;
+  const { name } = req.query;
 
   try {
     const filePath = path.resolve('./plugins.yml');
