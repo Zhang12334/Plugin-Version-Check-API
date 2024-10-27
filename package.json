@@ -1,0 +1,8 @@
+{
+  "name": "plugin-version-check-api",
+  "version": "1.0.0",
+  "main": "api.js",
+  "dependencies": {
+    "yaml": "^2.3.0"
+  }
+}
