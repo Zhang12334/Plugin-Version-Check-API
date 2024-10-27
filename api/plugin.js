@@ -7,7 +7,7 @@ export default async (req, res) => {
   const { pluginName } = req.query;
 
   try {
-    const filePath = path.resolve('plugins.yml');
+    const filePath = path.resolve('./plugins.yml');
     const file = fs.readFileSync(filePath, 'utf8');
     const pluginsData = YAML.parse(file);
 
